@@ -15,11 +15,20 @@
         width: 220px;
         border-radius: 8px;
     }
+    .youtube img {
+        width: auto;
+    }
     .fa-youtube {
         font-size: 36px;
     }
+    .spotify img {
+        width: auto;
+    }
     .fa-spotify {
         font-size: 36px;
+    }
+    .applemusic img {
+        width: auto;
     }
     .fa-apple {
         font-size: 36px;
@@ -49,13 +58,27 @@
         height: 60px;
         border-radius: 10px;
     }
+    .youtube img {
+        height: 60px;
+        width: auto;
+    }
     .fa-youtube {
         line-height: 60px;
         font-size: 46px;
     }
+    .spotify img {
+        height: 40px;
+        width: auto;
+        margin: 10px 0;
+    }
     .fa-spotify {
         line-height: 60px;
         font-size: 46px;
+    }
+    .applemusic img {
+        height: 50px;
+        width: auto;
+        margin: 5px 0;
     }
     .fa-apple {
         line-height: 60px;
