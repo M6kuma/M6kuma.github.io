@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Zen Kaku Gothic New";
+    background: linear-gradient(to bottom, hsl(205, 10%, 25%), hsl(205, 100%, 5%));
+    color: white;
+}
+.container {
+    max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: hsla(205, 5%, 50%, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.header-left {
+    display: flex;
+    position: relative;
+    width: 193.36px;
+}
+.header-left a {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.icon {
+    width: 50px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 15px 15px 15px 0;
+}
+.header-left p {
+    font-family: "Alumni Sans Pinstripe";
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 80px;
+    margin-right: 15px;
+}
+.heading {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px auto;
+}
+.heading h1 {
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.heading p {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+.top-wrapper {
+    padding: 180px 0;
+}
+.content-wrapper {
+    height: 1176px;
+}
+.summary {
+    width: 320px;
+    float: left;
+    text-align: center;
+}
+.summary img {
+    width: 300px;
+    vertical-align: bottom;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.subtitle {
+    padding: 30px 0;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.lyric {
+    height: 100%;
+    float: left;
+    margin-left: 100px;
+}
+.btn-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.youtube {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 3px hsl(0, 0%, 90%);
+}
+.youtube img {
+    height: 50px;
+    width: auto;
+}
+.fa-youtube {
+    line-height: 50px;
+    font-size: 36px;
+}
+.spotify {
+    background-color: hsl(141, 76%, 46%);
+    box-shadow: 0 3px hsl(141, 76%, 36%);
+}
+.spotify img {
+    height: 34px;
+    width: auto;
+    margin: 8px 0;
+}
+.fa-spotify {
+    line-height: 50px;
+    font-size: 36px;
+}
+.applemusic {
+    position: relative;
+    z-index: 0;
+    background: hsl(0, 0%, 20%);
+    box-shadow: 0 3px hsl(0, 0%, 10%);
+}
+.applemusic img {
+    height: 40px;
+    width: auto;
+    margin: 5px 0;
+}
+.fa-apple {
+    line-height: 50px;
+    font-size: 36px;
+}
+.btn:active {
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+    opacity: 0.7;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+}
+.footer-border {
+    width: 95%;
+    margin: 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+footer p {
+    text-align: center;
+    margin-top: 50px;
+    font-family: gothic;
+    font-weight: 100;
+    font-size: 12px;
+    opacity: 0.7
+}
