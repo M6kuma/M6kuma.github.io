@@ -1,0 +1,67 @@
+@media all and (max-width: 1000px) {
+    .container {
+        width: 85%;
+    }
+    .release img {
+        width: 250px;
+    }
+    .release p {
+        width: 80%;
+    }
+    .jacket {
+        margin: 30px;
+    }
+    .btn {
+        width: 220px;
+        border-radius: 8px;
+    }
+    .fa-youtube {
+        font-size: 36px;
+    }
+    .fa-spotify {
+        font-size: 36px;
+    }
+    .fa-apple {
+        font-size: 36px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
+    .releases {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .release img {
+        width: 100%;
+    }
+    .release p {
+        width: 100%;
+        font-size: 20px;
+    }
+    .btn {
+        width: 300px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .fa-youtube {
+        line-height: 70px;
+        font-size: 46px;
+    }
+    .fa-spotify {
+        line-height: 70px;
+        font-size: 46px;
+    }
+    .fa-apple {
+        line-height: 70px;
+        font-size: 46px;
+    }
+    .release-border {
+        width: 90%;
+        border-right: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        margin: 50px auto;
+    }
+}
