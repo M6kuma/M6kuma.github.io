@@ -30,32 +30,35 @@
     .container {
         width: 90%;
     }
+    .heading {
+        font-size: 24px;
+    }
     .releases {
         display: flex;
         flex-wrap: wrap;
     }
     .release img {
-        width: 100%;
+        width: 250px;
     }
     .release p {
-        width: 100%;
+        width: 90%;
         font-size: 20px;
     }
     .btn {
-        width: 300px;
-        height: 70px;
+        width: 250px;
+        height: 60px;
         border-radius: 10px;
     }
     .fa-youtube {
-        line-height: 70px;
+        line-height: 60px;
         font-size: 46px;
     }
     .fa-spotify {
-        line-height: 70px;
+        line-height: 60px;
         font-size: 46px;
     }
     .fa-apple {
-        line-height: 70px;
+        line-height: 60px;
         font-size: 46px;
     }
     .release-border {
